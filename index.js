@@ -1,6 +1,5 @@
 export default {
   async fetch(request, env, ctx) {
-    const bucket = env.MY_BUCKET;
     const url = new URL(request.url);
     const hostname = url.hostname;
 
